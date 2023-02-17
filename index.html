@@ -59,6 +59,12 @@
             height: 130px;
             margin-right: 2rem;
         }
+
+        td{
+            border-left: 1px solid black;
+            padding: 0 1rem;
+        }
+
     </style>
     <body>
         <!-- Class Layout: agar website tetap kelihatan bagus meskipun dilihat pada monitor wide-screen -->
@@ -70,14 +76,22 @@
 
             <!-- Informasi Pribadi -->
             <div style="display: inline-block">
-                <h1 class="name">Darren Prasetya</h1>
-                <p>Email: darrenprasetya40@gmail.com</p>
-                <p>
-                    LinkedIn:
-                    <a href="https://www.linkedin.com/in/darrenprasetya/"
-                        >Darren Prasetya</a
-                    >
-                </p>
+                <table>
+                    <tr>
+                        <h1 class="name">Darren Prasetya</h1>
+                    </tr>
+                    <tr>
+                        <p>Email: darrenprasetya40@gmail.com</p>
+                    </tr>
+                    <tr>
+                        <p>
+                            LinkedIn:
+                            <a href="https://www.linkedin.com/in/darrenprasetya/"
+                                >Darren Prasetya</a
+                            >
+                        </p>
+                    </tr>
+                </table>
             </div>
             
             <!-- Garis + Spasi -->
@@ -85,12 +99,18 @@
             
             <!-- Pendidikan -->
             <h2 class="header">Education</h2>
-            <p>Sepuluh Nopember Institute of Technology</p>
-            <p style="display: inline">
-                Bachelor’s Degree in Computer Science &emsp;|&emsp;
-            </p>
-            <p style="display: inline">GPA: 3.72/4.00 &emsp;|&emsp;</p>
-            <p style="display: inline">August 2025</p>
+            <table style="margin-top:-1rem;">
+                <tr>
+                    <th>
+                        <p>Sepuluh Nopember Institute of Technology</p>
+                    </th>
+                </tr>
+                <tr>
+                    <td>Bachelor’s Degree in Computer Science</td>
+                    <td>GPA: 3.72/4.00</td>
+                    <td>August 2025</td>
+                </tr>
+            </table>
             
 
             <hr class="space"/>
@@ -121,7 +141,7 @@
             <h2 class="header">Experience</h2>
             <div class="section">
                 <h3 class="item">Mulaicoding.id | Online Learning Company</h3>
-                <p>Software Engineer Intern (Fullstack Web Developer)</p>
+                <p><i>Software Engineer Intern (Fullstack Web Developer)</i></p>
                 <p>August 2022 – now</p>
                 <ul>
                     <li>
@@ -147,7 +167,7 @@
                     Ini Lho ITS! 2023 | Student-held Event for Sepuluh Nopember
                     Institute of Technology
                 </h3>
-                <p>Front-end Web Developer Staff</p>
+                <p><i>Front-end Web Developer Staff</i></p>
                 <p>November 2022 – now</p>
                 <ul>
                     <li>
@@ -165,7 +185,7 @@
                     ITS EXPO 2023 | Annual Innovation Event for Sepuluh Nopember
                     Institute of Technology
                 </h3>
-                <p>Expert Front-end Web Developer Staff</p>
+                <p><i>Expert Front-end Web Developer Staff</i></p>
                 <p>December 2022 – now</p>
                 <ul>
                     <li>
@@ -181,7 +201,7 @@
                 </ul>
 
                 <h3 class="item">Schematics 2023 | Event-based Organization</h3>
-                <p>Expert Back-end Web Developer Staff</p>
+                <p><i>Expert Back-end Web Developer Staff</i></p>
                 <p>January 2023 – now</p>
                 <ul>
                     <li>
@@ -192,7 +212,7 @@
                 </ul>
 
                 <h3 class="item">TedXITS 2023 | TEDx Event</h3>
-                <p>Back-end Web Developer Staff</p>
+                <p><i>Back-end Web Developer Staff</i></p>
                 <p>January 2023 – now</p>
                 <ul>
                     <li>
@@ -200,7 +220,7 @@
                     </li>
                 </ul>
                 <h3 class="item">ICHIRO ITS | University Robotics Team</h3>
-                <p>Programming Division Intern (Computer Vision)</p>
+                <p><i>Programming Division Intern (Computer Vision)</i></p>
                 <p>February 2022 – March 2022</p>
                 <ul>
                     <li>
